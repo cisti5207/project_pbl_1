@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <windows.h>
+#include <stdlib.h>
 
 
 void printCenter(const char *mess) {
@@ -52,7 +53,9 @@ int main() {
     
     switch(getchar())
     {
-        case '1':
+        case '1':   
+            system("start muc_luc.exe");
+            return 0;
         case '2':
         case '3':
         case '4':
